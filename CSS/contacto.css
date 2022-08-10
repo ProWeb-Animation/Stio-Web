@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+/*Títulos font-family: 'Abel', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Mina&display=swap');
+/*Subtítulos font-family: 'Mina', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+/*Subtítulos 2 font-family: 'Roboto Flex', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+/*Texto font-family: 'Bellefair', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&display=swap');
+/* font-family: 'Arima', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+/*Texto cursiva  font-family: 'Edu TAS Beginner', cursive;*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#logo_nombre {
+    font-size: 25px;
+    font-family: 'Abel', sans-serif;
+    font-weight: 500;
+}
+#barnav {
+    color: #000 !important; 
+    font-size: 16px !important;
+    font-weight: bolder;
+    font-family: 'Mina', sans-serif;
+}
+.active {
+    color: rgb(131, 12, 243) !important;
+    margin: 0px 5px 0px 5px;
+}
+
+
+#tituloo {
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'Abel', sans-serif;
+    /*font-family: 'Mina', sans-serif;¨*/
+}
+#subtitulo {
+    font-family: 'Mina', sans-serif;
+    font-weight: 600;
+}
+#texto{
+    font-family: 'Bellefair', serif;
+    font-size: 1.4rem;
+}
+#citacion{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 1.4rem;
+}
+#formulario {
+    font-family: 'Bellefair', serif;
+    font-size: 1.2rem;
+}
+#botonzote{
+    font-size: 1.rem;
+    font-family: 'Edu TAS Beginner', cursive;
+    
+}
+/* From uiverse.io by @adamgiebl */
+#botonzote {
+    background: rgb(158, 54, 255);
+    font-family: 'Edu TAS Beginner', cursive;
+    padding: 0.4em 1.5rem;
+    font-weight: 900;
+    font-size: 1rem;
+    border: 3px solid black;
+    border-radius: 0.4rem;
+    -webkit-box-shadow: 0.1em 0.1em;
+            box-shadow: 0.1em 0.1em;
+   }
+   
+   #botonzote:hover {
+    -webkit-transform: translate(-0.05em, -0.05em);
+        -ms-transform: translate(-0.05em, -0.05em);
+            transform: translate(-0.05em, -0.05em);
+    -webkit-box-shadow: 0.15em 0.15em;
+            box-shadow: 0.15em 0.15em;
+   }
+   
+   #botonzote:active {
+    -webkit-transform: translate(0.05em, 0.05em);
+        -ms-transform: translate(0.05em, 0.05em);
+            transform: translate(0.05em, 0.05em);
+    -webkit-box-shadow: 0.05em 0.05em;
+            box-shadow: 0.05em 0.05em;
+   }
+
+#redessociales {
+    width: 70px;
+    height: 70px;
+}
+#redessociales:hover{
+    transform: scale(1.5,1.5);
+    transition: all 1s;
+}
+
+
+#footer_cool {
+    background-color: #16161a;
+    color: #fff;
+    font-family: 'Bellefair', serif;
+}
+#RS_footer {
+    width: 30px;
+    height: 30px;
+}
+
+#slogan {
+    font-size: 1.1rem;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+#historia {
+    text-align: justify;
+}
+#derecha {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+#derecha a{
+    text-decoration: none;
+    color: #fff;
+}
+#derecha a:hover{
+    text-decoration: none;
+    color: rgb(161, 60, 255) ;
+}
+#Footersubtitulos {
+    font-family: 'Mina', sans-serif;
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+/*Títulos font-family: 'Abel', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Mina&display=swap');
+/*Subtítulos font-family: 'Mina', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+/*Subtítulos 2 font-family: 'Roboto Flex', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+/*Texto font-family: 'Bellefair', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&display=swap');
+/* font-family: 'Arima', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+/*Texto cursiva  font-family: 'Edu TAS Beginner', cursive;*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#logo_nombre {
+    font-size: 25px;
+    font-family: 'Abel', sans-serif;
+    font-weight: 500;
+}
+#barnav {
+    color: #000 !important; 
+    font-size: 16px !important;
+    font-weight: bolder;
+    font-family: 'Mina', sans-serif;
+}
+.active {
+    color: rgb(131, 12, 243) !important;
+    margin: 0px 5px 0px 5px;
+}
+
+
+#tituloo {
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'Abel', sans-serif;
+    /*font-family: 'Mina', sans-serif;¨*/
+}
+#subtitulo {
+    font-family: 'Mina', sans-serif;
+    font-weight: 600;
+}
+#texto{
+    font-family: 'Bellefair', serif;
+    font-size: 1.4rem;
+}
+#citacion{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 1.4rem;
+}
+
+
+#contenidos{
+    text-align: justify;
+}
+
+#texto_menu{
+    font-family: 'Bellefair', serif;
+    font-size: 1.4rem;
+}
+#texto_menu:hover {
+    font-size: 2rem;
+    transition: all 0.7s;
+}
+#texto_menu a{
+    color: #000;
+}
+#texto_menu a:hover{
+    color: rgb(131, 12, 243) !important;
+}
+
+#numero_1{
+    border: 10px #16161a !important;
+    
+}
+#conteinercool {
+    background-image: url("../MEDIA/ooorganize.svg");
+}
+
+
+#footer_cool {
+    background-color: #16161a;
+    color: #fff;
+    font-family: 'Bellefair', serif;
+}
+#RS_footer {
+    width: 30px;
+    height: 30px;
+}
+
+#slogan {
+    font-size: 1.1rem;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+#historia {
+    text-align: justify;
+}
+#derecha {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+#derecha a{
+    text-decoration: none;
+    color: #fff;
+}
+#derecha a:hover{
+    text-decoration: none;
+    color: rgb(161, 60, 255) ;
+}
+#Footersubtitulos {
+    font-family: 'Mina', sans-serif;
+}
